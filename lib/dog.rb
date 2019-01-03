@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all
-    @@all.each do |dog|
+    @@all.map do |dog|
       dog.name
     end
   end
