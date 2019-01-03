@@ -12,5 +12,10 @@ class Dog
   def self.all
     @@all.map do |dog|
       puts "${dog}"
+    end
+  end
+  
+  def self.clear_all
+    
   end
 end
